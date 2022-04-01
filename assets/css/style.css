@@ -1,11 +1,11 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 body {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
     padding-bottom: 300px;
     background-color: white;
 }
@@ -153,13 +153,27 @@ nav a:hover {
 }
 
 .banner_title {
+    color: white;
     font-size: 21px;
 }
 
 .banner_desc {
+    color: white;
     font-size: 12px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.banner_desc_hours {
+    padding: 10px;
+}
+
+.hours {
+    margin-top: 10px;
+    display: flex;
+    padding: 5px;
+    flex-direction: row;
+    justify-content: space-between;    
 }
 
 .banner_options a {
@@ -316,6 +330,7 @@ footer .widget_title_text {
 }
 
 .footer_copy {
+    text-align: center;
     border-top: 1px solid #2c2c2c;
     height: 40px;
     line-height: 40px;
