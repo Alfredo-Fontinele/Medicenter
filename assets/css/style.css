@@ -356,7 +356,7 @@ footer .widget_title_text {
 @media only screen and (max-width: 600px) {
 
     .banner_headline {
-        padding: 40px;
+        padding: 50px;
     }
 
     .banner_headline h1 {
@@ -436,4 +436,9 @@ footer .widget_title_text {
         margin-top: 10px;
         padding: 10px;
     }
+
+    .widget_title {
+        margin-top: 160px;
+    }
+
 }
